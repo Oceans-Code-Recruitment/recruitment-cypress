@@ -1,0 +1,20 @@
+{
+    "name": "cypress_recruitment_example",
+    "version": "1.0.0",
+    "description": "Cypress Recruitment Example",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx cypress open"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "Jose Ignacio Cabrera Bustamante",
+    "license": "MIT",
+    "devDependencies": {
+      "cypress": "^6.5.0",
+      "cypress-xpath": "^1.6.2"
+    }
+  }
+  
