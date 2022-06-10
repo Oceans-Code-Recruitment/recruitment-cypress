@@ -20,7 +20,8 @@ describe('ClickUp Sanity', () => {
     })
     // Add an extra verification candidate task
     it('Verifies profile user name', () => {
-        cy.get('.cu-avatar-container', {timeout: 15000}).click()
+        //HINT. How can I add timeout to some locator?
+        cy.get('.cu-avatar-container').click() 
         // Assertion
         cy.get('[data-test="user-settings-menu"] [class*="column-title-name"]').should('contain', 'Jose Cabrera')
     })
